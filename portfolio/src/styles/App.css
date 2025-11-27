@@ -1,0 +1,28 @@
+
+.navbar{
+  font-weight: bold;
+  font-size: 1rem;
+;
+
+
+}
+
+.nav-item{
+  margin-left: 30px;
+}
+
+.main-body{
+  position: relative;
+  min-height: 100vh;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+ 
+
+}
+
+.footer-contact-link {
+  text-decoration: none;
+  color: black;
+ 
+}
+

@@ -1,0 +1,52 @@
+.about-section {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.timeline {
+  position: relative;
+  margin-left: 2rem;
+  border-left: 3px solid rgba(255, 255, 255, 0.2);
+  padding-left: 1rem;
+}
+
+.timeline-item {
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.timeline-icon {
+  position: absolute;
+  left: -30px;
+  top: 5px;
+  background: #007bff;
+  border-radius: 50%;
+  color: white;
+  padding: 6px;
+  font-size: 1.2rem;
+}
+
+.avatar-wrapper {
+  max-width: 250px;
+  margin: 0 auto;
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+  100% { transform: translateY(0); }
+}
+
+.fact-card {
+  min-width: 200px;
+  max-width: 300px;
+}

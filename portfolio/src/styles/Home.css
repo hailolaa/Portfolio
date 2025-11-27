@@ -1,0 +1,64 @@
+.home-section {
+  position: relative;
+  padding: 120px 100px ;
+  min-height: 100vh;
+  color: #fff;
+  overflow: hidden;
+ 
+}
+
+.home-info{
+  margin-bottom: 140px;
+}
+
+.home-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.typewriter {
+  font-size: 1.5rem;
+  color: #00d8ff;
+  display: block;
+  margin-top: 10px;
+}
+
+.home-subtitle {
+  font-size: 1.1rem;
+  color: #dcdcdc;
+}
+
+.highlight {
+  color: #00d8ff;
+}
+
+.hero-image {
+  width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 216, 255, 0.2);
+}
+
+.home-buttons .btn-primary {
+  background-color: #00d8ff;
+  border-color: #00d8ff;
+}
+
+.home-buttons .btn-primary:hover {
+  background-color: #00c4e4;
+}
+
+.home-buttons .btn-outline-light:hover {
+  background-color: #fff;
+  color: #243b55;
+}
+
+/* 🧊 Glass effect */
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 15px rgba(0, 216, 255, 0.1);
+  border-radius: 16px;
+  padding: 30px;
+  margin-right: 50px;
+}
